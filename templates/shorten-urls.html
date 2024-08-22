@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+        h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        input[type="text"], input[type="number"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        .radio-group {
+            margin: 15px 0;
+        }
+        .radio-group label {
+            display: inline-block;
+            margin-right: 15px;
+            font-size: 14px;
+            color: #333;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Shortly Shorten Your URL</h2>
+        <form action="/shorten_url/shorten-urls-services" method="POST">
+            <input type="text" placeholder="Please enter the URL" name="original_url" required>
+            <input type="number" placeholder="Shortened link length" name="link_length" min="6" max="20" required>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="redirect_option" value="same" required>
+                    Redirect to the same link
+                </label>
+                <label>
+                    <input type="radio" name="redirect_option" value="diff">
+                    Redirect to a different link
+                </label>
+            </div>
+            <button type="submit">Shorten URL</button>
+            {% if result %}
+            <p><strong>Message:</strong> {{ result.message }}</p>
+            <p><strong>Shortened URL:</strong> 
+                <a href="{{ result.shorten_url_map[result.short_url] }}" target="_blank">{{ result.short_url }}</a>
+             </p>
+             
+            {% endif %}
+            <span></span>
+        </form>
+    </div>
+</body>
+</html>

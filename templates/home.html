@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .card-text {
+            font-size: 1em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="pastelockly/paste-lockly-page" class="card">
+       
+            <img src="static/paste_lockly.jpg" alt="Card Image">
+            <div class="card-content">
+                <h2 class="card-title">Paste Lockly</h2>
+                <p class="card-text">This is a brief description of the first card. It provides some details about the content.</p>
+            </div>
+        </a>
+        <a href="shorten_url/shorten-urls-page" class="card">
+            <img src="static/shorten_url.jpg" alt="Card Image">
+            <div class="card-content">
+                <h2 class="card-title">Shorten URL</h2>
+                <p class="card-text">This is a brief description of the second card. It provides some details about the content.</p>
+            </div>
+        </a>
+        <a href="scrappy/scrappy-page" class="card">
+            <img src="static/web_scrapping.webp" alt="Card Image">
+            <div class="card-content">
+                <h2 class="card-title">Web Scrapping</h2>
+                <p class="card-text">This is a brief description of the third card. It provides some details about the content.</p>
+            </div>
+        </a>
+    </div>
+</body>
+</html>

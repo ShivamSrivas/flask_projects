@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snippet Sharing App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        textarea,
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        .result p {
+            margin: 0;
+        }
+
+        .result a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .result a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Share a Snippet</h2>
+        <form id="snippetForm" action="/pastelockly/paste-lockly-encrpyt" method="POST">
+            <label for="snippetText">Enter Your Snippet:</label>
+            <textarea id="snippetText" rows="5" placeholder="Type your code or text here..." name="text"></textarea>
+
+            <label for="encrpytKey">Optional Secret Key:</label>
+            <input type="text" id="encrpytKey" placeholder="Enter a secret key for encryption" name="encrpytKey">
+
+            <button type="submit" class="btn">Create Shareable URL</button>
+            {% if obj %}
+        <div class="result" id="result">
+            <p>Your snippet URL:</p>
+            <a href="{{ '/pastelockly/paste-lockly-get-snippet/' ~ obj }}" id="shareableLink" target="_blank">{{ 'pastelockly/paste-lockly-get-snippet/' ~ obj }}</a>
+        </div>
+        {% endif %}
+        </form>
+        
+    </div>
+</body>
+
+</html>

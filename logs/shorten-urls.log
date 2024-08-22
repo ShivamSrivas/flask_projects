@@ -1,0 +1,240 @@
+2024-08-21 21:09:31 - INFO - Object initialized with ShortenServices class
+2024-08-21 21:09:31 - INFO - shorten_url method called
+2024-08-21 21:09:31 - INFO - Shortened URL is created successfully
+2024-08-21 21:09:31 - INFO - 127.0.0.1 - - [21/Aug/2024 21:09:31] "POST /shorten_url/shorten-urls-services HTTP/1.1" 200 -
+2024-08-21 21:09:59 - INFO - 127.0.0.1 - - [21/Aug/2024 21:09:59] "GET /pastelockly/paste-lockly-page HTTP/1.1" 200 -
+2024-08-21 21:14:34 - INFO - 127.0.0.1 - - [21/Aug/2024 21:14:34] "[33mGET /home HTTP/1.1[0m" 404 -
+2024-08-21 21:14:40 - INFO - 127.0.0.1 - - [21/Aug/2024 21:14:40] "GET / HTTP/1.1" 200 -
+2024-08-21 21:14:40 - INFO - 127.0.0.1 - - [21/Aug/2024 21:14:40] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-21 21:14:40 - INFO - 127.0.0.1 - - [21/Aug/2024 21:14:40] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-21 21:14:40 - INFO - 127.0.0.1 - - [21/Aug/2024 21:14:40] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-21 22:36:24 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\pastelockly\\services.py', reloading
+2024-08-22 01:28:53 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:28:53 - INFO - shorten_url method called
+2024-08-22 01:28:53 - INFO - Shortened URL is created successfully
+2024-08-22 01:28:53 - INFO - 127.0.0.1 - - [22/Aug/2024 01:28:53] "POST /shorten_url/shorten-urls-services HTTP/1.1" 200 -
+2024-08-22 01:29:22 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 01:29:32 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:29:32 - INFO - shorten_url method called
+2024-08-22 01:29:32 - ERROR - There is an error saying __init__() missing 1 required positional argument: 'data_time'
+2024-08-22 01:29:32 - INFO - 127.0.0.1 - - [22/Aug/2024 01:29:32] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:30:57 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\models\\shorten_services_model.py', reloading
+2024-08-22 01:35:14 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:35:14 - INFO - shorten_url method called
+2024-08-22 01:35:14 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:35:14 - INFO - 127.0.0.1 - - [22/Aug/2024 01:35:14] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:36:04 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 01:36:10 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:36:10 - INFO - shorten_url method called
+2024-08-22 01:36:10 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:36:10 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:10] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:36:14 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:36:14 - INFO - shorten_url method called
+2024-08-22 01:36:14 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:36:14 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:14] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:36:18 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:36:18 - INFO - shorten_url method called
+2024-08-22 01:36:18 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:36:18 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:18] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:36:24 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:24] "GET / HTTP/1.1" 200 -
+2024-08-22 01:36:24 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:24] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:36:24 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:24] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:36:24 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:24] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 01:36:26 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:26] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 01:36:30 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:36:30 - INFO - shorten_url method called
+2024-08-22 01:36:30 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:36:30 - INFO - 127.0.0.1 - - [22/Aug/2024 01:36:30] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:37:06 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 01:37:12 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:37:12 - INFO - shorten_url method called
+2024-08-22 01:37:12 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:37:12 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:12] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:37:16 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:16] "GET / HTTP/1.1" 200 -
+2024-08-22 01:37:16 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:16] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:37:16 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:16] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 01:37:16 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:16] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:37:19 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:19] "GET /pastelockly/paste-lockly-page HTTP/1.1" 200 -
+2024-08-22 01:37:21 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:21] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 01:37:27 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:37:27 - INFO - shorten_url method called
+2024-08-22 01:37:27 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:37:27 - INFO - 127.0.0.1 - - [22/Aug/2024 01:37:27] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:38:48 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\models\\shorten_services_model.py', reloading
+2024-08-22 01:39:01 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:39:01 - INFO - shorten_url method called
+2024-08-22 01:39:01 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:39:02 - INFO - 127.0.0.1 - - [22/Aug/2024 01:39:02] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:39:05 - INFO - 127.0.0.1 - - [22/Aug/2024 01:39:05] "GET /pastelockly/paste-lockly-page HTTP/1.1" 200 -
+2024-08-22 01:39:08 - INFO - 127.0.0.1 - - [22/Aug/2024 01:39:08] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 01:39:15 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:39:15 - INFO - shorten_url method called
+2024-08-22 01:39:15 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:39:15 - INFO - 127.0.0.1 - - [22/Aug/2024 01:39:15] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:41:05 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 01:41:21 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:41:21 - INFO - shorten_url method called
+2024-08-22 01:41:21 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:41:21 - INFO - 127.0.0.1 - - [22/Aug/2024 01:41:21] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:41:59 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 01:42:29 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:42:29 - INFO - shorten_url method called
+2024-08-22 01:42:29 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:42:29 - INFO - 127.0.0.1 - - [22/Aug/2024 01:42:29] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:42:33 - INFO - 127.0.0.1 - - [22/Aug/2024 01:42:33] "GET / HTTP/1.1" 200 -
+2024-08-22 01:42:33 - INFO - 127.0.0.1 - - [22/Aug/2024 01:42:33] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:42:33 - INFO - 127.0.0.1 - - [22/Aug/2024 01:42:33] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:42:33 - INFO - 127.0.0.1 - - [22/Aug/2024 01:42:33] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 01:42:34 - INFO - 127.0.0.1 - - [22/Aug/2024 01:42:34] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 01:42:42 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:42:42 - INFO - shorten_url method called
+2024-08-22 01:42:42 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:42:42 - INFO - 127.0.0.1 - - [22/Aug/2024 01:42:42] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:45:58 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 01:56:10 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:56:10 - INFO - shorten_url method called
+2024-08-22 01:56:10 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:56:10 - INFO - 127.0.0.1 - - [22/Aug/2024 01:56:10] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 01:57:32 - INFO - 127.0.0.1 - - [22/Aug/2024 01:57:32] "GET / HTTP/1.1" 200 -
+2024-08-22 01:57:33 - INFO - 127.0.0.1 - - [22/Aug/2024 01:57:33] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:57:33 - INFO - 127.0.0.1 - - [22/Aug/2024 01:57:33] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 01:57:33 - INFO - 127.0.0.1 - - [22/Aug/2024 01:57:33] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 01:57:37 - INFO - 127.0.0.1 - - [22/Aug/2024 01:57:37] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 01:57:42 - INFO - Object initialized with ShortenServices class
+2024-08-22 01:57:42 - INFO - shorten_url method called
+2024-08-22 01:57:42 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 01:57:42 - INFO - 127.0.0.1 - - [22/Aug/2024 01:57:42] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:00:12 - INFO - 127.0.0.1 - - [22/Aug/2024 02:00:12] "GET / HTTP/1.1" 200 -
+2024-08-22 02:00:12 - INFO - 127.0.0.1 - - [22/Aug/2024 02:00:12] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 02:00:12 - INFO - 127.0.0.1 - - [22/Aug/2024 02:00:12] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 02:00:12 - INFO - 127.0.0.1 - - [22/Aug/2024 02:00:12] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 02:00:14 - INFO - 127.0.0.1 - - [22/Aug/2024 02:00:14] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 02:00:20 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:00:20 - INFO - shorten_url method called
+2024-08-22 02:00:20 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:00:20 - INFO - 127.0.0.1 - - [22/Aug/2024 02:00:20] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:01:26 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 02:01:40 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:01:40 - INFO - shorten_url method called
+2024-08-22 02:01:40 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:01:40 - INFO - 127.0.0.1 - - [22/Aug/2024 02:01:40] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:02:52 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 02:03:06 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:03:06 - INFO - shorten_url method called
+2024-08-22 02:03:06 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:03:06 - INFO - 127.0.0.1 - - [22/Aug/2024 02:03:06] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:11:25 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\routes.py', reloading
+2024-08-22 02:11:38 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:11:38 - INFO - shorten_url method called
+2024-08-22 02:11:38 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:11:38 - INFO - 127.0.0.1 - - [22/Aug/2024 02:11:38] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:13:35 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 02:15:15 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:15:15 - INFO - shorten_url method called
+2024-08-22 02:15:15 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:15:15 - INFO - 127.0.0.1 - - [22/Aug/2024 02:15:15] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:18:39 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\models\\shorten_services_model.py', reloading
+2024-08-22 02:20:58 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:20:58 - INFO - shorten_url method called
+2024-08-22 02:20:58 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:20:58 - INFO - 127.0.0.1 - - [22/Aug/2024 02:20:58] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:23:12 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 02:25:01 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:25:01 - INFO - shorten_url method called
+2024-08-22 02:25:01 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:25:01 - INFO - 127.0.0.1 - - [22/Aug/2024 02:25:01] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:27:30 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 02:36:20 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:36:20 - INFO - shorten_url method called
+2024-08-22 02:36:20 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:36:20 - INFO - 127.0.0.1 - - [22/Aug/2024 02:36:20] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:37:52 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 02:43:07 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:43:07 - INFO - shorten_url method called
+2024-08-22 02:43:07 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:43:07 - INFO - 127.0.0.1 - - [22/Aug/2024 02:43:07] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:45:12 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\routes.py', reloading
+2024-08-22 02:52:39 - INFO - Object initialized with ShortenServices class
+2024-08-22 02:52:39 - INFO - shorten_url method called
+2024-08-22 02:52:39 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 02:52:39 - INFO - 127.0.0.1 - - [22/Aug/2024 02:52:39] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 02:52:50 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 03:08:28 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:08:28 - INFO - shorten_url method called
+2024-08-22 03:08:28 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:08:28 - INFO - 127.0.0.1 - - [22/Aug/2024 03:08:28] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:09:17 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 03:13:58 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:13:58 - INFO - shorten_url method called
+2024-08-22 03:13:58 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:13:58 - INFO - 127.0.0.1 - - [22/Aug/2024 03:13:58] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:14:59 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 03:16:58 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:16:58 - INFO - shorten_url method called
+2024-08-22 03:16:58 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:16:58 - INFO - 127.0.0.1 - - [22/Aug/2024 03:16:58] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:17:38 - INFO - 127.0.0.1 - - [22/Aug/2024 03:17:38] "GET / HTTP/1.1" 200 -
+2024-08-22 03:17:38 - INFO - 127.0.0.1 - - [22/Aug/2024 03:17:38] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:17:38 - INFO - 127.0.0.1 - - [22/Aug/2024 03:17:38] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:17:38 - INFO - 127.0.0.1 - - [22/Aug/2024 03:17:38] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 03:19:22 - INFO - 127.0.0.1 - - [22/Aug/2024 03:19:22] "GET / HTTP/1.1" 200 -
+2024-08-22 03:19:22 - INFO - 127.0.0.1 - - [22/Aug/2024 03:19:22] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:19:22 - INFO - 127.0.0.1 - - [22/Aug/2024 03:19:22] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:19:22 - INFO - 127.0.0.1 - - [22/Aug/2024 03:19:22] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 03:20:02 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 03:21:41 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:21:41 - INFO - shorten_url method called
+2024-08-22 03:21:41 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:21:41 - INFO - 127.0.0.1 - - [22/Aug/2024 03:21:41] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:22:02 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 03:24:19 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:24:19 - INFO - shorten_url method called
+2024-08-22 03:24:19 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:24:19 - INFO - 127.0.0.1 - - [22/Aug/2024 03:24:19] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:24:24 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:24:24 - INFO - shorten_url method called
+2024-08-22 03:24:24 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:24:24 - INFO - 127.0.0.1 - - [22/Aug/2024 03:24:24] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:25:48 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\__init__.py', reloading
+2024-08-22 03:32:58 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:32:58 - INFO - shorten_url method called
+2024-08-22 03:32:58 - ERROR - There is an error saying name 'db' is not defined
+2024-08-22 03:32:58 - INFO - 127.0.0.1 - - [22/Aug/2024 03:32:58] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:33:02 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:33:02 - INFO - shorten_url method called
+2024-08-22 03:33:02 - ERROR - There is an error saying name 'db' is not defined
+2024-08-22 03:33:02 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:02] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:33:05 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:05] "GET / HTTP/1.1" 200 -
+2024-08-22 03:33:05 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:05] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:33:05 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:05] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:33:05 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:05] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 03:33:06 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:06] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 03:33:11 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:33:11 - INFO - shorten_url method called
+2024-08-22 03:33:11 - ERROR - There is an error saying name 'db' is not defined
+2024-08-22 03:33:11 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:11] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:33:34 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:34] "GET / HTTP/1.1" 200 -
+2024-08-22 03:33:34 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:34] "[36mGET /static/paste_lockly.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:33:34 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:34] "[36mGET /static/shorten_url.jpg HTTP/1.1[0m" 304 -
+2024-08-22 03:33:34 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:34] "[36mGET /static/web_scrapping.webp HTTP/1.1[0m" 304 -
+2024-08-22 03:33:35 - INFO - 127.0.0.1 - - [22/Aug/2024 03:33:35] "GET /shorten_url/shorten-urls-page HTTP/1.1" 200 -
+2024-08-22 03:35:27 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:35:27 - INFO - shorten_url method called
+2024-08-22 03:35:27 - ERROR - There is an error saying name 'db' is not defined
+2024-08-22 03:35:27 - INFO - 127.0.0.1 - - [22/Aug/2024 03:35:27] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:36:10 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 03:36:28 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:36:28 - INFO - shorten_url method called
+2024-08-22 03:36:28 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:36:28 - INFO - 127.0.0.1 - - [22/Aug/2024 03:36:28] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:40:07 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\app.py', reloading
+2024-08-22 03:42:09 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:42:09 - INFO - shorten_url method called
+2024-08-22 03:42:09 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:42:09 - INFO - 127.0.0.1 - - [22/Aug/2024 03:42:09] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:43:50 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading
+2024-08-22 03:44:05 - INFO - Object initialized with ShortenServices class
+2024-08-22 03:44:05 - INFO - shorten_url method called
+2024-08-22 03:44:05 - ERROR - There is an error saying The current Flask app is not registered with this 'SQLAlchemy' instance. Did you forget to call 'init_app', or did you create multiple 'SQLAlchemy' instances?
+2024-08-22 03:44:05 - INFO - 127.0.0.1 - - [22/Aug/2024 03:44:05] "[35m[1mPOST /shorten_url/shorten-urls-services HTTP/1.1[0m" 500 -
+2024-08-22 03:44:49 - INFO -  * Detected change in 'D:\\MovedFromCtoD\\Desktop\\flask_project\\shorten_url\\services.py', reloading

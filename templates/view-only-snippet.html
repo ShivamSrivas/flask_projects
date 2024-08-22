@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Snippet</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+        .snippet-container {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: .375rem;
+            padding: 20px;
+            box-shadow: 0 0 .125rem rgba(0, 0, 0, .075);
+        }
+        .snippet-text {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 snippet-container">
+                <h2 class="text-center">Snippet Details</h2>
+                {% if snippet %}
+                <div class="snippet-text">
+                    <!-- The snippet text will be injected here -->
+                    {{ snippet }}
+                </div>
+                {% endif %}
+                <div class="text-center mt-4">
+                    <a href="/" class="btn btn-primary">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
