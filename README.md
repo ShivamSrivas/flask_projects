@@ -30,7 +30,7 @@ Shortly is a web application that allows users to shorten lengthy URLs into comp
 Analytics dashboard to track URL usage.
 Expiry options for short URLs.
 
-PasteLockly: Anonymous Text Sharing
+## PasteLockly: Anonymous Text Sharing
 📖 Description
 PasteLockly is a secure and anonymous platform for sharing text snippets. It allows users to generate shareable URLs for text content, with optional encryption for added security.
 
@@ -44,7 +44,7 @@ Decryption: Viewers need to supply the key to decrypt and view the content.
 Expiration time for text snippets.
 User authentication for managing created snippets.
 
-Web Scraper: Automated Data Collection
+## Scrappy: Automated Data Collection
 📖 Description
 This web application scrapes data (e.g., images) from a specified website every 5 minutes. It's designed to collect data on a regular basis for monitoring or analysis.
 
