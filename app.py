@@ -9,7 +9,7 @@ def create_app():
     app = Flask(__name__)
 
     # Configure the database
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123456@localhost/flask_backend'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'Enter your config'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     # Initialize database and migration tool
